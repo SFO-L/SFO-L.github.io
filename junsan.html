@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <center>
+        <font style="color: red; font-size:45px ">我宣布浚桑是这个宇宙超级无敌可爱的第一人！</font><br>
+       
+                <img src="img/js.png">
+           
+    </center>
+    <div class="left">    <img src="img/11.gif"></div>
+	<div class="right">    <img src="img/22.gif">    </div>
+
+
+
+</body>
+<style>
+   .box {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000000;
+	position: relative;
+}
+.chl_box {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: #00FFFF;
+}
+.chl_box>img{
+    max-width: 100%;
+        max-height: 100%;
+        display: block; /* 删除图片下方的多余空间 */
+}
+.left {
+			position: fixed;
+			/* 该盒子在浏览器左侧 */
+			/* 上边偏移 0 紧贴顶部 */
+			top: 100;
+			/* 左边偏移 0 紧贴左侧 */
+			left: 0;
+
+			/* 内容尺寸 */
+			width: 100px;
+			height: 300px;
+
+		}
+
+		/* 固定定位 - 浏览器右侧元素 */
+		.right {
+			position: fixed;
+			/* 该盒子在浏览器右侧 */
+			/* 上边偏移 0 紧贴顶部 */
+			top: 100;
+			/* 右边偏移 0 紧贴右侧 */
+			right: 0;
+
+			/* 内容尺寸 */
+			width: 100px;
+			height: 300px;
+
+		}
+       
+</style>
+</html>
